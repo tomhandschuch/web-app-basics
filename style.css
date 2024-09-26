@@ -1,0 +1,32 @@
+body {
+    transition: background-color 1s ease;
+    background-color: white;
+    color: rgb(86, 83, 83);
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+body.dark-mode {
+    background-color: rgb(86, 83, 83);
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(84, 81, 81);
+    border: 5px solid rgb(72, 69, 69);
+    transition: border-color 0.5s ease;
+}
+
+body.dark-mode button {
+    border-color: white;
+    box-shadow: 0 0 10px 5px yellow ;
+    color: white;
+    background-color: rgb(86, 83, 83);
+}
