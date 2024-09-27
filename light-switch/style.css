@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     transition: background-color 1s ease;
     background-color: white;
