@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+input {
+    padding: 0.3rem;
+    font-size: 1rem;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.3rem;
+}
