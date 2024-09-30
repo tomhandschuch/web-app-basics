@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    width: 100vw;
+    padding: 50px;
+    background-color: #f1bbbb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sliders {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .sliders label {
+    margin-right: 10px;
+  }
+  
+  .color-value {
+    font-size: 1.5rem;
+  }
+  
+  .main-area {
+    width: 100vw;
+    height: calc(100vh - 0px); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hotpink; 
+    transition: background-color 0.3s ease;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+  
+  input[type="range"] {
+    -webkit-appearance: none; 
+    width: 150px;
+    height: 8px;
+    border-radius: 5px;
+    background: #ddd;
+    outline: none;
+    transition: background 0.3s ease;
+  }
+  
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  #redRange::-webkit-slider-thumb {
+    background-color: red;
+  }
+  
+  #redRange::-moz-range-thumb {
+    background-color: red;
+  }
+  
+  #greenRange::-webkit-slider-thumb {
+    background-color: green;
+  }
+  
+  #greenRange::-moz-range-thumb {
+    background-color: green;
+  }
+  
+  #blueRange::-webkit-slider-thumb {
+    background-color: blue;
+  }
+  
+  #blueRange::-moz-range-thumb {
+    background-color: blue;
+  }
+  
