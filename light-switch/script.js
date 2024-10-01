@@ -1,4 +1,4 @@
-const button = document.getElementById("toggleButton");
+const button = document.querySelector("#toggleButton");
 const body = document.body;
 
 button.addEventListener("click", function() {

@@ -7,6 +7,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-family:´;
 }
 
 .container {
@@ -19,9 +20,11 @@ body {
 input {
     padding: 0.3rem;
     font-size: 1rem;
+    width: 12rem;
 }
 
 button {
     font-size: 1rem;
     padding: 0.3rem;
+    width: 9rem;
 }
